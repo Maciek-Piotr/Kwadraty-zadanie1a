@@ -1,0 +1,40 @@
+* {
+  padding: 0%;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  position: relative;
+  height: 100vh;
+  margin: 0;
+}
+#the_only_button {
+  border-color: blue;
+  padding: 10px 20px;
+  font-family: "Roboto", system-ui;
+  font-weight: 800;
+  font-style: normal;
+  border-radius: 20px;
+  background-color: white;
+  position: absolute;
+  top: 50px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+#the_only_button:hover {
+  background-color: pink;
+  color: blue;
+}
+.square {
+  color: white;
+  background-color: black;
+  border: 1px solid gray;
+  width: 25px;
+  height: 25px;
+}
+.circle {
+  border-radius: 25px;
+  color: black;
+  background-color: white;
+  border: 2px solid blue;
+}
